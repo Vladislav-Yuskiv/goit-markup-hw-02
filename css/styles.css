@@ -1,0 +1,89 @@
+/* акцент  #2196F3;*/
+/* колір логотипа #000000 */
+/* колір текста #757575 */
+/* білий колір #ffffff */
+/* колір заголовків і навігації #212121 */
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --header-color: #212121;
+  --link-color: #212121;
+}
+
+body {
+  background: #e5e5e5;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: var(--header-color);
+}
+.list {
+  list-style: none;
+}
+/* logo */
+.accent {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--logo-color);
+  text-decoration: none;
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* auth-nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.hero-buttom {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Section one  */
+.section-text {
+  color: var(--primary-text-color);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.address {
+  color: var(--primary-white-color);
+}
+.contacts-link {
+  color: var(--secondary-white-color);
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
