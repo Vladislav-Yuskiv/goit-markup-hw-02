@@ -106,7 +106,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/* Section 2 */
+/* Section 3 */
 .list-name {
   font-weight: 500;
   font-size: 16px;
@@ -125,7 +125,7 @@ body {
 .section-text {
   color: var(--primary-text-color);
 }
-.section-title{
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -145,7 +145,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-}
 .address {
   color: var(--primary-white-color);
   font-weight: 400;
@@ -158,9 +157,8 @@ body {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
- line-height: 1.71;
-letter-spacing: 0.03em;
-
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .contacts-link:hover,
 .contacts-link:focus {
